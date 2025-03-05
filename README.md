@@ -23,7 +23,7 @@ The equation for the final model is
 
     cnt = 0.268 + 0.375temp + 0.235yr - 0.160Spring - 0.074(Mist + Clouds) - 0.287*(Light Rain/Snow) - 0.084*holiday
 
-It indicates that the demand is directly related ((goes up) as these variables increase)) to the temprature and the year (i.e. it was more in 2019 compared to 2018). It is negatively related (goes down as these variables increase) to Spring, holiday, Light Rain/Snow and Mist + Clouds.
+It indicates that the demand is directly related (goes up as these variables increase) to the temprature and the year (i.e. it was more in 2019 compared to 2018). It is negatively related (goes down as these variables increase) to Spring, holiday, Light Rain/Snow and Mist + Clouds.
 
 The r2_score for this model using the code provided below came to 0.798.
 
